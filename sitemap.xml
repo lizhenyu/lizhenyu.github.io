@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://lizhenyu.gitcafe.com/2014/10/29/hello-hexo/</loc>
+    <lastmod>2014-10-29T07:56:52.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lizhenyu.gitcafe.com/2014/10/29/hello-markdown/</loc>
+    <lastmod>2014-10-29T07:56:38.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://lizhenyu.gitcafe.com/about/index.html</loc>
     <lastmod>2014-10-29T07:33:45.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://lizhenyu.gitcafe.com/2014/10/29/my-new-post/</loc>
-    <lastmod>2014-10-29T07:22:45.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://lizhenyu.gitcafe.com/2014/10/29/hello-world/</loc>
-    <lastmod>2014-10-29T02:00:17.000Z</lastmod>
   </url>
   
 </urlset>

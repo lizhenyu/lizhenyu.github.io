@@ -4,7 +4,7 @@
   <subtitle><![CDATA[show me your code]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://lizhenyu.gitcafe.com/"/>
-  <updated>2014-10-29T07:50:13.987Z</updated>
+  <updated>2014-10-29T07:57:28.927Z</updated>
   <id>http://lizhenyu.gitcafe.com/</id>
   
   <author>
@@ -15,14 +15,15 @@
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[my new post]]></title>
-    <link href="http://lizhenyu.gitcafe.com/2014/10/29/my-new-post/"/>
-    <id>http://lizhenyu.gitcafe.com/2014/10/29/my-new-post/</id>
-    <published>2014-10-29T02:15:38.000Z</published>
-    <updated>2014-10-29T07:22:45.000Z</updated>
+    <title><![CDATA[Hello MarkDown]]></title>
+    <link href="http://lizhenyu.gitcafe.com/2014/10/29/hello-markdown/"/>
+    <id>http://lizhenyu.gitcafe.com/2014/10/29/hello-markdown/</id>
+    <published>2014-10-29T07:55:38.000Z</published>
+    <updated>2014-10-29T07:56:38.000Z</updated>
     <content type="html"><![CDATA[<h1 id="Welcome_to_StackEdit!">Welcome to StackEdit!</h1>
-<p>Hey! I’m your first Markdown document in <strong>StackEdit</strong>[^stackedit]. Don’t delete me, I’m very helpful! I can be recovered anyway in the <strong>Utils</strong> tab of the <i class="icon-cog"></i> <strong>Settings</strong> dialog.</p>
-<h2><a id="more"></a></h2>
+<h2 id="Hey!_I’m_your_first_Markdown_document_in_StackEdit[^stackedit]-_Don’t_delete_me,_I’m_very_helpful!_I_can_be_recovered_anyway_in_the_Utils_tab_of_the_Settings_dialog-">Hey! I’m your first Markdown document in <strong>StackEdit</strong>[^stackedit]. Don’t delete me, I’m very helpful! I can be recovered anyway in the <strong>Utils</strong> tab of the <i class="icon-cog"></i> <strong>Settings</strong> dialog.</h2>
+<a id="more"></a>
+
 <h2 id="Documents">Documents</h2>
 <p>StackEdit stores your documents in your browser, which means all your documents are automatically saved locally and are accessible <strong>offline!</strong></p>
 <blockquote>
@@ -245,26 +246,26 @@
 ]]></content>
     <summary type="html">
     <![CDATA[<h1 id="Welcome_to_StackEdit!">Welcome to StackEdit!</h1>
-<p>Hey! I’m your first Markdown document in <strong>StackEdit</strong>[^stackedit]. Don’t delete me, I’m very helpful! I can be recovered anyway in the <strong>Utils</strong> tab of the <i class="icon-cog"></i> <strong>Settings</strong> dialog.</p>
-<h2>]]>
+<h2 id="Hey!_I’m_your_first_Markdown_document_in_StackEdit[^stackedit]-_Don’t_delete_me,_I’m_very_helpful!_I_can_be_recovered_anyway_in_the_Utils_tab_of_the_Settings_dialog-">Hey! I’m your first Markdown document in <strong>StackEdit</strong>[^stackedit]. Don’t delete me, I’m very helpful! I can be recovered anyway in the <strong>Utils</strong> tab of the <i class="icon-cog"></i> <strong>Settings</strong> dialog.</h2>
+]]>
     
     </summary>
     
-      <category term="info" scheme="http://lizhenyu.gitcafe.com/tags/info/"/>
+      <category term="markdown" scheme="http://lizhenyu.gitcafe.com/tags/markdown/"/>
     
-      <category term="test" scheme="http://lizhenyu.gitcafe.com/tags/test/"/>
+      <category term="init" scheme="http://lizhenyu.gitcafe.com/tags/init/"/>
     
-      <category term="info" scheme="http://lizhenyu.gitcafe.com/categories/info/"/>
+      <category term="markdown" scheme="http://lizhenyu.gitcafe.com/categories/markdown/"/>
     
   </entry>
   
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <link href="http://lizhenyu.gitcafe.com/2014/10/29/hello-world/"/>
-    <id>http://lizhenyu.gitcafe.com/2014/10/29/hello-world/</id>
-    <published>2014-10-29T02:00:17.000Z</published>
-    <updated>2014-10-29T02:00:17.000Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+    <title><![CDATA[Hello Hexo]]></title>
+    <link href="http://lizhenyu.gitcafe.com/2014/10/29/hello-hexo/"/>
+    <id>http://lizhenyu.gitcafe.com/2014/10/29/hello-hexo/</id>
+    <published>2014-10-29T07:53:38.000Z</published>
+    <updated>2014-10-29T07:56:52.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.<br><a id="more"></a></p>
 <h2 id="Quick_Start">Quick Start</h2>
 <h3 id="Create_a_new_post">Create a new post</h3>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
@@ -284,8 +285,15 @@
 <p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.<br>]]>
+    
     </summary>
+    
+      <category term="hexo" scheme="http://lizhenyu.gitcafe.com/tags/hexo/"/>
+    
+      <category term="init" scheme="http://lizhenyu.gitcafe.com/tags/init/"/>
+    
+      <category term="hexo" scheme="http://lizhenyu.gitcafe.com/categories/hexo/"/>
     
   </entry>
   
