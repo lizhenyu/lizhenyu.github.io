@@ -3,9 +3,9 @@
   <title><![CDATA[thanks job]]></title>
   <subtitle><![CDATA[show me your code]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2014-10-29T07:47:13.098Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://lizhenyu.gitcafe.com/"/>
+  <updated>2014-10-29T07:50:13.987Z</updated>
+  <id>http://lizhenyu.gitcafe.com/</id>
   
   <author>
     <name><![CDATA[lizhenyu]]></name>
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[my new post]]></title>
-    <link href="http://yoursite.com/2014/10/29/my-new-post/"/>
-    <id>http://yoursite.com/2014/10/29/my-new-post/</id>
+    <link href="http://lizhenyu.gitcafe.com/2014/10/29/my-new-post/"/>
+    <id>http://lizhenyu.gitcafe.com/2014/10/29/my-new-post/</id>
     <published>2014-10-29T02:15:38.000Z</published>
     <updated>2014-10-29T07:22:45.000Z</updated>
     <content type="html"><![CDATA[<h1 id="Welcome_to_StackEdit!">Welcome to StackEdit!</h1>
@@ -250,18 +250,18 @@
     
     </summary>
     
-      <category term="info" scheme="http://yoursite.com/tags/info/"/>
+      <category term="info" scheme="http://lizhenyu.gitcafe.com/tags/info/"/>
     
-      <category term="test" scheme="http://yoursite.com/tags/test/"/>
+      <category term="test" scheme="http://lizhenyu.gitcafe.com/tags/test/"/>
     
-      <category term="info" scheme="http://yoursite.com/categories/info/"/>
+      <category term="info" scheme="http://lizhenyu.gitcafe.com/categories/info/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Hello World]]></title>
-    <link href="http://yoursite.com/2014/10/29/hello-world/"/>
-    <id>http://yoursite.com/2014/10/29/hello-world/</id>
+    <link href="http://lizhenyu.gitcafe.com/2014/10/29/hello-world/"/>
+    <id>http://lizhenyu.gitcafe.com/2014/10/29/hello-world/</id>
     <published>2014-10-29T02:00:17.000Z</published>
     <updated>2014-10-29T02:00:17.000Z</updated>
     <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
