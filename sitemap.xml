@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://lizhenyu.gitcafe.com/2014/10/29/hexo-with-different-pc/</loc>
+    <lastmod>2014-10-29T15:23:49.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lizhenyu.gitcafe.com/2014/10/29/markdown-%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95/</loc>
+    <lastmod>2014-10-29T13:50:00.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lizhenyu.gitcafe.com/2014/10/29/how-to-use-markdown/</loc>
+    <lastmod>2014-10-29T13:24:58.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://lizhenyu.gitcafe.com/2014/10/29/hello-hexo/</loc>
     <lastmod>2014-10-29T07:56:52.000Z</lastmod>
   </url>

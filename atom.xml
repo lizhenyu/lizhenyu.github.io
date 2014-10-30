@@ -4,7 +4,7 @@
   <subtitle><![CDATA[show me your code]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://lizhenyu.gitcafe.com/"/>
-  <updated>2014-10-29T08:26:28.302Z</updated>
+  <updated>2014-10-30T01:25:38.406Z</updated>
   <id>http://lizhenyu.gitcafe.com/</id>
   
   <author>
@@ -13,6 +13,224 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[hexo with different pc]]></title>
+    <link href="http://lizhenyu.gitcafe.com/2014/10/29/hexo-with-different-pc/"/>
+    <id>http://lizhenyu.gitcafe.com/2014/10/29/hexo-with-different-pc/</id>
+    <published>2014-10-29T14:44:27.000Z</published>
+    <updated>2014-10-29T15:23:49.000Z</updated>
+    <content type="html"><![CDATA[<p>hexo continue</p>
+<p>hexo in different devices<a id="more"></a></p>
+<h1 id="同步hexo目录">同步hexo目录</h1>
+<ul>
+<li>通过百度云同步盘对不同电脑上的hexo博客目录进行同步</li>
+</ul>
+<h1 id="解决-git隐藏文件不同步问题">解决.git隐藏文件不同步问题</h1>
+<blockquote>
+<p>同步有一个问题.deploy目标保存着hexo执行git提交的git配置文件夹.git。但是该文件夹是隐藏文件夹，因此百度云同步盘不能同步</p>
+</blockquote>
+<h3 id="对其他文件正常同步">对其他文件正常同步</h3>
+<p>在新pc上同步hexo文件夹之后，在.deploy目录执行</p>
+<ul>
+<li>git init</li>
+<li>git add .</li>
+<li>git checkout -b gitcafe-pages</li>
+</ul>
+<h3 id="退回到hexo目录执行">退回到hexo目录执行</h3>
+<ul>
+<li>hexo clean</li>
+<li>hexo g</li>
+<li>hexo d</li>
+</ul>
+<p><strong>执行完上述步骤既可以实现从同步盘同步数据，并且提交hexo到gitcafe</strong></p>
+<h1 id="在github和gitcafe之间切换提交">在github和gitcafe之间切换提交</h1>
+<h3 id="首先需要到hexo目录下的配置文件修改提交地址">首先需要到hexo目录下的配置文件修改提交地址</h3>
+<h3 id="从gitcafe切换到github">从gitcafe切换到github</h3>
+<p>在.deploy目录执行</p>
+<ul>
+<li>git checkout -b master</li>
+</ul>
+<p>退回到hexo目录</p>
+<ul>
+<li>hexo clean</li>
+<li>hexo g</li>
+<li>hexo d</li>
+</ul>
+<h3 id="重新回到切换回gitcafe">重新回到切换回gitcafe</h3>
+<p>到.deploy目录执行 </p>
+<ul>
+<li>git checkout gitcafe-pages</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>hexo continue</p>
+<p>hexo in different devices]]>
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://lizhenyu.gitcafe.com/tags/hexo/"/>
+    
+      <category term="continue" scheme="http://lizhenyu.gitcafe.com/tags/continue/"/>
+    
+      <category term="hexo" scheme="http://lizhenyu.gitcafe.com/categories/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[markdown 简明语法]]></title>
+    <link href="http://lizhenyu.gitcafe.com/2014/10/29/markdown-%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95/"/>
+    <id>http://lizhenyu.gitcafe.com/2014/10/29/markdown-简明语法/</id>
+    <published>2014-10-29T13:27:28.000Z</published>
+    <updated>2014-10-29T13:50:00.000Z</updated>
+    <content type="html"><![CDATA[<p>markdown语法进阶<a id="more"></a></p>
+<h1 id="markdown简明语法">markdown简明语法</h1>
+<hr>
+<h3 id="基本符号">基本符号</h3>
+<ul>
+<li>*,-,+3个符号效果都一样，这3个符号被称为Markdown符号</li>
+<li>空白行表示另起段落</li>
+<li>`是表示inline代码，tab是用来标记代码段，分别对应html的code，pre标签</li>
+</ul>
+<h3 id="换行">换行</h3>
+<ul>
+<li>单一段落(<code>&lt;p&gt;</code>)用一个空白行</li>
+<li>连续两个空格  会变成一个<code>&lt;br&gt;</code></li>
+<li>连续三个符号，然后是空行，表示hr横线</li>
+</ul>
+<h3 id="标题">标题</h3>
+<ul>
+<li>生成h1—h6，在文字前面加上1—6个#来实现</li>
+<li>文字加粗是通过在文字左右各加两个符号</li>
+</ul>
+<h3 id="引用">引用</h3>
+<ul>
+<li>在第一行加上”&gt;”和一个空格，表示代码引用，还可以嵌套</li>
+</ul>
+<h3 id="列表">列表</h3>
+<p>这个是markdown文件的主要表示方式，主题要点化</p>
+<ul>
+<li>使用*，+，-加上一个空格来表示</li>
+<li>可以支持嵌套</li>
+<li>有序列表用 数据+英文点+空格来表示</li>
+<li>列表内容很长，不需要手工输入换行符，css控制段落的宽度，会自动的缩放的</li>
+</ul>
+<h3 id="链接">链接</h3>
+<ul>
+<li>直接写<code>[锚文本](url &quot;可选的title&quot;)</code></li>
+<li>引用 先定义 [ref_name]:url，然后在需要写入url的地方，这样使用[锚文本][ref_name]，通常的ref_name一般用数字表示，这样显得专业</li>
+<li>简写url：用尖括号包裹url，这样生成的url锚文本就是url本身</li>
+</ul>
+<h3 id="插入图片">插入图片</h3>
+<ul>
+<li>一行表示：<code>![alt_text](url &quot;可选的title&quot;)</code></li>
+<li>应用表示法：![alt_text][id],预先定义[id]:url “可选title”</li>
+<li>直接使用<code>&lt;img&gt;</code>标签,这样可以指定图片的大小尺寸</li>
+</ul>
+<h3 id="特殊符号">特殊符号</h3>
+<ul>
+<li>用\来转义，表示文本中的markdown符号</li>
+<li>可以在文本中直接使用html标签，但是要注意在使用的时候，前后加上空行</li>
+<li>文本前后各加一个符号，表示斜体</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>markdown语法进阶]]>
+    
+    </summary>
+    
+      <category term="markdown" scheme="http://lizhenyu.gitcafe.com/tags/markdown/"/>
+    
+      <category term="language" scheme="http://lizhenyu.gitcafe.com/tags/language/"/>
+    
+      <category term="markdown" scheme="http://lizhenyu.gitcafe.com/categories/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[how to use markdown]]></title>
+    <link href="http://lizhenyu.gitcafe.com/2014/10/29/how-to-use-markdown/"/>
+    <id>http://lizhenyu.gitcafe.com/2014/10/29/how-to-use-markdown/</id>
+    <published>2014-10-29T12:09:29.000Z</published>
+    <updated>2014-10-29T13:24:58.000Z</updated>
+    <content type="html"><![CDATA[<p>markdown 语法入门<a id="more"></a></p>
+<p>单个回车<br>视为空格。</p>
+<p>继续回车</p>
+<p>才能分段。</p>
+<p>行尾加两个空格，这里-》<br>即可段内换行。</p>
+<p><em>这些字体显示为斜体</em></p>
+<p><strong>这些字体显示为粗体</strong></p>
+<p>java:</p>
+<pre><code><span class="comment">//行的开头空4个空格，表示程序代码，正文显示中自动识别语言，进行代码染色</span>
+<span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span>(String args[]) {
+    System.<span class="keyword">out</span>.println(<span class="string">"hello world"</span>);
+}
+</code></pre><p>JavaScript:</p>
+<pre><code><span class="function"><span class="keyword">function</span> <span class="title">fun</span><span class="params">(n)</span> </span>{
+    <span class="keyword">var</span> a = <span class="number">1</span>;
+    <span class="keyword">var</span> b = <span class="number">1</span>;
+
+    <span class="keyword">var</span> tmp;
+
+    tmp = a;
+    a = b;
+    b = a;
+}
+
+<span class="built_in">document</span>.write(fun(<span class="number">10</span>));
+</code></pre><p>java:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="keyword">class</span> SayHello {</div><div class="line">	</div><div class="line">	<span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span>(String args[]) {</div><div class="line">		System.<span class="keyword">out</span>.println(<span class="string">"hello world"</span>);</div><div class="line">	}</div><div class="line">}</div></pre></td></tr></table></figure>
+
+<blockquote>
+<p>表示引用文字内容.</p>
+</blockquote>
+<h1 id="表示一级标题">表示一级标题</h1>
+<h2 id="表示二级标题">表示二级标题</h2>
+<h3 id="表示三级标题">表示三级标题</h3>
+<p>也可以这样表示大标题<br>=</p>
+<p>这样表示小标题<br>-</p>
+<hr>
+<p>上面是一条分割线</p>
+<ul>
+<li>这是无序列表项目</li>
+<li>这是无序列表项目</li>
+<li>这是无序列表项目</li>
+</ul>
+<p>两个列表之间不能相邻，否则就会解释为嵌套的列表</p>
+<ol>
+<li>这是有序列表项目</li>
+<li>这是有序列表项目</li>
+<li>这是有序列表项目</li>
+</ol>
+<p>下面这个是嵌套的列表</p>
+<ul>
+<li>外层列表项目<ul>
+<li>内层列表项目</li>
+<li>内层无序列表项目</li>
+<li>内层列表项目</li>
+</ul>
+</li>
+<li>外层列表项目</li>
+</ul>
+<p>直接把URL显示为超级链接：</p>
+<p>也可以这样：<a href="http://www.baidu.com" target="_blank" rel="external">百度</a></p>
+<p>图像和链接非常类似，区别在开头加一个惊叹号:<img src="http://www.baidu.com/img/bd_logo1.png" alt="这是一个logo"></p>
+<p>此外还可以以索引方式把url都列在文章的最后，例如这样：</p>
+<p><a href="http://www.baidu.com" target="_blank" rel="external">baidu</a></p>
+<p><img src="http://www.baidu.com/img/bd_logo1.png" alt=""></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>markdown 语法入门]]>
+    
+    </summary>
+    
+      <category term="markdown" scheme="http://lizhenyu.gitcafe.com/tags/markdown/"/>
+    
+      <category term="continue" scheme="http://lizhenyu.gitcafe.com/tags/continue/"/>
+    
+      <category term="markdown" scheme="http://lizhenyu.gitcafe.com/categories/markdown/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Hello MarkDown]]></title>

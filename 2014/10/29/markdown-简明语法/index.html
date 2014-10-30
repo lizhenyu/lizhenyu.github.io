@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>about | thanks job</title>
+  <title>markdown 简明语法 | thanks job</title>
   <meta name="author" content="lizhenyu">
   
   <meta name="description" content="show me your code">
@@ -11,7 +11,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="about"/>
+  <meta property="og:title" content="markdown 简明语法"/>
   <meta property="og:site_name" content="thanks job"/>
 
   
@@ -51,27 +51,89 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 </nav>
 <div class="clearfix"></div></header>
   <div id="content" class="inner">
-    <div id="main-col" class="alignleft"><div id="wrapper"><article class="page">
+    <div id="main-col" class="alignleft"><div id="wrapper"><article class="post">
   
   <div class="post-content">
     <header>
       
+        <div class="icon"></div>
+        <time datetime="2014-10-29T13:27:28.000Z"><a href="/2014/10/29/markdown-简明语法/">10月 29 2014</a></time>
+      
       
   
-    <h1 class="title">about</h1>
+    <h1 class="title">markdown 简明语法</h1>
   
 
     </header>
     <div class="entry">
       
-        <p>thanks job<br>jobs about</p>
+        <p>markdown语法进阶<a id="more"></a></p>
+<h1 id="markdown简明语法">markdown简明语法</h1>
+<hr>
+<h3 id="基本符号">基本符号</h3>
+<ul>
+<li>*,-,+3个符号效果都一样，这3个符号被称为Markdown符号</li>
+<li>空白行表示另起段落</li>
+<li>`是表示inline代码，tab是用来标记代码段，分别对应html的code，pre标签</li>
+</ul>
+<h3 id="换行">换行</h3>
+<ul>
+<li>单一段落(<code>&lt;p&gt;</code>)用一个空白行</li>
+<li>连续两个空格  会变成一个<code>&lt;br&gt;</code></li>
+<li>连续三个符号，然后是空行，表示hr横线</li>
+</ul>
+<h3 id="标题">标题</h3>
+<ul>
+<li>生成h1—h6，在文字前面加上1—6个#来实现</li>
+<li>文字加粗是通过在文字左右各加两个符号</li>
+</ul>
+<h3 id="引用">引用</h3>
+<ul>
+<li>在第一行加上”&gt;”和一个空格，表示代码引用，还可以嵌套</li>
+</ul>
+<h3 id="列表">列表</h3>
+<p>这个是markdown文件的主要表示方式，主题要点化</p>
+<ul>
+<li>使用*，+，-加上一个空格来表示</li>
+<li>可以支持嵌套</li>
+<li>有序列表用 数据+英文点+空格来表示</li>
+<li>列表内容很长，不需要手工输入换行符，css控制段落的宽度，会自动的缩放的</li>
+</ul>
+<h3 id="链接">链接</h3>
+<ul>
+<li>直接写<code>[锚文本](url &quot;可选的title&quot;)</code></li>
+<li>引用 先定义 [ref_name]:url，然后在需要写入url的地方，这样使用[锚文本][ref_name]，通常的ref_name一般用数字表示，这样显得专业</li>
+<li>简写url：用尖括号包裹url，这样生成的url锚文本就是url本身</li>
+</ul>
+<h3 id="插入图片">插入图片</h3>
+<ul>
+<li>一行表示：<code>![alt_text](url &quot;可选的title&quot;)</code></li>
+<li>应用表示法：![alt_text][id],预先定义[id]:url “可选title”</li>
+<li>直接使用<code>&lt;img&gt;</code>标签,这样可以指定图片的大小尺寸</li>
+</ul>
+<h3 id="特殊符号">特殊符号</h3>
+<ul>
+<li>用\来转义，表示文本中的markdown符号</li>
+<li>可以在文本中直接使用html标签，但是要注意在使用的时候，前后加上空行</li>
+<li>文本前后各加一个符号，表示斜体</li>
+</ul>
 
       
     </div>
     <footer>
       
         
+  
+  <div class="categories">
+    <a href="/categories/markdown/">markdown</a>
+  </div>
+
         
+  
+  <div class="tags">
+    <a href="/tags/markdown/">markdown</a>, <a href="/tags/language/">language</a>
+  </div>
+
         <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
 <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
       
@@ -84,6 +146,10 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 
 <nav id="pagination" >
     
+    <a href="/2014/10/29/hexo-with-different-pc/" class="alignleft prev" >上一页</a>
+    
+    
+    <a href="/2014/10/29/how-to-use-markdown/" class="alignright next" >下一页</a>
     
     <div class="clearfix"></div>
 </nav>
